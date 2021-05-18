@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3641d1c5c4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>YoutTube</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="header-container">
+            <i class="fas fa-bars menu menu-bars" id="show-menu"></i>
+            <img src="logo.jpg" alt="logo">
+            <input class="bar" type="text" placeholder="Search">
+
+            <button class="btn-search">
+        <i class="fa fa-search"></i>
+        <ul>
+          <li>Search</li>
+        </ul>
+      </button>
+
+            <button class="btn-mic">
+        <i class="fas fa-microphone mic"></i>
+        <ul>
+          <li>Search with your voice</li>
+        </ul>
+      </button>
+            <div class="right">
+                <div class="dropdown">
+                    <button class="btn-grid" onclick="myFunction1()">
+            <i class="fas fa-th btn-grid"></i>
+            <ul>
+              <li>YouTube apps</li>
+            </ul>
+          </button>
+                    <div id="myDropdown1" class="dropdown-content1">
+                        <a href="youtube_tv.html" class="mb-1 fle"><i class="fas fa-tv fa-lg" style="margin-right: 17px;"></i> YouTube TV</a>
+                        <a href="youtube_music.html"><i class="far fa-play-circle fa-lg" style="margin-right: 19px; font-size: 1.3rem;"></i> YouTube Music</a>
+                        <a href="youtube_kids.html" class="mb-1"><i class="fab fa-centercode fa-lg" style="margin-right: 19px; font-size: 1.3rem;"></i> YouTube Kids</a>
+                        <a href="youtube_ca.html"><i class="fab fa-youtube fa-lg" style="margin-right: 16px;"></i> Creator Academy</a>
+                        <a href="youtube_art.html"><i class="fab fa-youtube fa-lg" style="margin-right: 16px;"></i> YouTube for Artists</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button class="btn-three" onclick="myFunction2()">
+            <i class="fas fa-ellipsis-v btn-three"></i>
+            <ul>
+              <li>Settings</li>
+            </ul>
+          </button>
+                    <div id="myDropdown2" class="dropdown-content2">
+                        <a href="#"><i class="fas fa-adjust fa-lg" style="margin-right: 23px; font-size: 1.2rem;"></i>Appearance: Dark <i class="fas fa-chevron-right" style="margin-left: 74px;"></i></a>
+                        <a href="#"><i class="fas fa-language fa-lg" style="margin-right: 19px; font-size: 1.2rem;"></i>Language: British English <i class="fas fa-chevron-right" style="margin-left: 23px;"></i></a>
+                        <a href="#"><i class="fas fa-globe" style="margin-right: 25px; font-size: 1.2rem;"></i>Location: India <i class="fas fa-chevron-right" style="margin-left: 93px;"></i></a>
+                        <a href="#"><i class="fas fa-cog" style="margin-right: 25px; font-size: 1.2rem;"></i>Settings</a>
+                        <a href="#"><i class="fas fa-user-shield" style="margin-right: 21px; font-size: 1.2rem;"></i>Your data in YouTube</a>
+                        <a href="#"><i class="fas fa-question-circle" style="margin-right: 25px; font-size: 1.2rem;"></i>Help</a>
+                        <a href="#"><i class="fas fa-comment-alt" style="margin-right: 25px; font-size: 1.2rem;"></i>Send feedback</a>
+                        <a href="#" class="mb-1"><i class="fas fa-keyboard" style="margin-right: 22px; font-size: 1.2rem;"></i>Keyboard shortcuts</a>
+                        <a href="#">Restricted Mode: Off <i class="fas fa-chevron-right" style="margin-left: 90px;"></i></a>
+                    </div>
+                </div>
+
+                <button class="btn-sign-in"><i class="fas fa-user-circle fa-lg" style="font-size: 22px;margin-top: -40px;"></i>&nbsp; SIGN IN</button>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- ****************************************************************** -->
+
+    <div class="container">
+        <!-- Header left -->
+        <nav id="side-nav">
+            <div class="nav-container">
+                <div class="home">
+                    <i class="fas fa-home"></i>
+                    <p>Home</p>
+                </div>
+                <div class="explore">
+                    <i class="fas fa-compass"></i>
+                    <p>Explore</p>
+                </div>
+                <div class="subscribe">
+                    <i class="fas fa-money-check"></i>
+                    <p>Subscriptions</p>
+                </div>
+                <div class="library">
+                    <i class="fas fa-book-open"></i>
+                    <p>Library</p>
+                </div>
+            </div>
+        </nav>
+
+        <div class="sidebar ">
+            <div class="logo-content ">
+                <div class="logo ">
+                    <a href="#">
+                        <i class="bx bx-menu " class="menu-bars" id="btn " id="hide-menu " style="color:aliceblue;font-size:20px; margin-left:-180px; "></i></a>
+                    <a href="# " style="text-decoration:none;margin-left:19px; ">
+                        <h4><i class="fab fa-youtube " style="margin-left:30px; " id="youtube-logo "></i><span>YouTube<sup style="font-size: 10px;height:24px;color:gray ">IN</sup></span></h4>
+                    </a>
+                </div>
+
+            </div>
+
+            <ul class="nav-list ">
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-home "></i>
+                        <span class="links_name ">Home</span>
+                    </a>
+                    <!-- <span class="tooltip "><i class="fa fa-home "></i> -->
+                    </span>
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-compass "></i>
+                        <span class="links_name ">Explore</span>
+                    </a>
+                    <!-- <span class="tooltip "><i class="fa fa-compass "></i> -->
+                    </span>
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fab fa-youtube "></i>
+                        <span class="links_name ">Subscriptions</span>
+                    </a>
+                    <!-- <span class="tooltip "><i class="fab fa-youtube "></i> -->
+                    </span>
+                </li>
+
+                <hr/>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-play-circle "></i>
+                        <span class="links_name ">Library</span>
+                    </a>
+                    <!-- <span class="tooltip "><i class="fa fa-play-circle "></i> -->
+                    </span>
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-history "></i>
+                        <span class="links_name ">History</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-video "></i>
+                        <span class="links_name ">Your videos</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-clock "></i>
+                        <span class="links_name ">Watch later</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-thumbs-up "></i>
+                        <span class="links_name ">Liked videos</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-angle-down "></i>
+                        <span class="links_name ">Show more</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <hr/>
+                <h5>SUBSCRIPTIONS</h5>
+                <li>
+
+                    <a href="# ">
+                        <img src="bhakthi.jpg " style="width: 24px;border-radius:13px; ">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="links_name ">Bhakthi TV</span>
+
+                    </a>
+
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <img src="code.jpg " style="width: 24px;border-radius:13px; ">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="links_name ">Programming</span>
+                    </a>
+
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <img src="unnamed.jpg " style="width: 24px;border-radius:13px; ">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        <span class="links_name "> Health Tips</span>
+
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <hr/>
+                <h5>MORE FROM YOUTUBE
+                </h5>
+                <li>
+                    <a href="# ">
+                        <i class="fab fa-youtube "></i>
+                        <span class="links_name ">YouTube Premium</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-film "></i>
+                        <span class="links_name ">Films</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-gamepad "></i>
+                        <span class="links_name ">Gaming</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fa fa-tv "></i> </i>
+                        <span class="links_name ">Live</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fas fa-tshirt "></i>
+                        <span class="links_name ">Fashion&beauty</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                    &nbsp;<i class="fas fa-lightbulb "></i> <span class="links_name ">Learning</span>
+                </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fas fa-trophy "></i> <span class="links_name ">Sport</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+
+                <hr/>
+                <li>
+                    <a href="# ">
+                        <i class="fas fa-cog "></i> <span class="links_name ">Settings</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fab fa-font-awesome-flag "></i> <span class="links_name ">Report history</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="far fa-question-circle "></i> <span class="links_name ">Help</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <li>
+                    <a href="# ">
+                        <i class="fas fa-comment-alt "></i> <span class="links_name "> Send-feedback</span>
+                    </a>
+                    <!--<span class="tooltip ">Home</span>-->
+                </li>
+                <hr/>
+            </ul>
+            <div class="p-text ">
+                <p><a href="# ">About</a>&nbsp; &nbsp;&nbsp;<a href="# ">Press</a>&nbsp; &nbsp;&nbsp;<a href="# ">Copyright</a></br> <a href="# ">Contact Us</a>&nbsp;<a href="# "> Creator</a>&nbsp;
+                    <a href="# ">Advertise</a></br> <a href="# ">Developers</a></p>
+                </br>
+                <p><a href="# ">Terms</a>&nbsp; &nbsp;<a href="# ">Privacy</a>&nbsp; &nbsp;<a href="# ">Policy& Safety</a></br><a href="# ">How YouTube works</a></br><a>Test new features</a></p>
+                </br>
+                <div class="cc ">
+                    <p>© 2021 Google LLC</p>
+                    </br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header left -->
+    <!-- <nav id="side-nav">
+    <div class="nav-container">
+      <div class="home">
+        <i class="fas fa-home"></i>
+        <p>Home</p>
+      </div>
+      <div class="explore">
+        <i class="fas fa-compass"></i>
+        <p>Explore</p>
+      </div>
+      <div class="subscribe">
+        <i class="fas fa-money-check"></i>
+        <p>Subscriptions</p>
+      </div>
+      <div class="library">
+        <i class="fas fa-book-open"></i>
+        <p>Library</p>
+      </div>
+    </div>
+  </nav> -->
+
+    <script>
+        // Header Script
+        // For grid
+        function myFunction1() {
+            document.getElementById("myDropdown1").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.btn-grid')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content1");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        // For three dots
+        function myFunction2() {
+            document.getElementById("myDropdown2").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.btn-three')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content2");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+        // For Side Menu
+        const openMenu = document.querySelector('#show-menu')
+        const hideMenu = document.querySelector('#hide-menu')
+        const sideMenu = document.querySelector(".sidebar ")
+        openMenu.addEventListener('click', function() {
+            sideMenu.classList.add('active')
+
+        })
+        hideMenu.addEventListener('click', function() {
+            sideMenu.classList.remove('active')
+        })
+
+        function closeNav() {
+            document.getElementById("mySidenav ").style.width = "0 ";
+        }
+    </script>
+</body>
+
+</html>
